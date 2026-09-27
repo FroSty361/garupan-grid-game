@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %} Garupan Grid Game - Guess Your Favorite GuP Characters! {% endblock %}
+
+{% block stylesheets %}
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/game.css') }}">
+
+{% endblock %}
+
+{% block content %}
+<div class="base-contents-container">
+    <div id="game-container">
+        <div id="game-head">
+            <h1>Girls und Panzer Grid</h1>
+        </div>
+        <div id="game">
+            <div id="puzzle-side">
+                <img id="puzzle-background" src="{{ url_for('static', filename='images/ui/garupan-scope.png') }}">
+
+                <div id="puzzle">
+                    <h1>Hi!</h1>
+                </div>
+            </div>
+            <div id="game-side-bar">
+                <h1>Game Side Bar</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

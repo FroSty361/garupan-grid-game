@@ -1,0 +1,56 @@
+#game-container {
+    background-color: #464b60;
+
+    display: flex;
+    flex-direction: column;
+
+    max-width: 74rem;
+    width: 100%;
+}
+
+#game-head {
+    background-color: #1d2539;
+
+    width: 100%;
+}
+
+#game {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+}
+
+#puzzle-side {
+    position: relative;
+
+    width: 65%;
+
+    display: inline-block;
+}
+
+#puzzle-background {
+    width: 100%;
+    height: auto;
+
+    display: block;
+}
+
+#puzzle {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 10;
+
+    text-align: center;
+}
+
+#game-side-bar {
+    background-color: white;
+
+    flex-grow: 1;
+}
