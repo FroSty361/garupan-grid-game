@@ -42,9 +42,41 @@ character_attributes_data = [
     ("Tank", "Pz.IV"),
     ("Tank", "M4 Sherman"),
 
+    # First Appearance
+
+    ("First Appearance", "Main Anime Episodes 1 to 4"),
+    ("First Appearance", "Main Anime Episodes 5 and 6"),
+    ("First Appearance", "Main Anime Episodes 7 to 12"),
+    ("First Appearance", "OVA"),
+    ("First Appearance", "Der Film"),
+    ("First Appearance", "Das Finale Part 1"),
+    ("First Appearance", "Das Finale Part 2"),
+    ("First Appearance", "Das Finale Part 3"),
+    ("First Appearance", "Manga"),
+
     # Age Range
 
     ("Age Range", "Under 15"),
     ("Age Range", "15 to 18"),
-    ("Age Range", "Above 18")
+    ("Age Range", "Above 18"),
+
+    # Height
+
+    ("Height", "<= 145 cm"),
+    ("Height", "> 145 cm and < 160 cm"),
+    ("Height", ">= 160 cm"),
+
+    # Hair Color
+
+    ("Hair Color", "Black"),
+    ("Hair Color", "White"),
+    ("Hair Color", "Brown"),
+    ("Hair Color", "Blonde"),
+    ("Hair Color", "Red"),
+    ("Hair Color", "Green"),
+
+    # Hair Length
+
+    ("Hair Length", "Longer"),
+    ("Hair Length", "Shorter")
 ]
