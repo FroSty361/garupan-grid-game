@@ -11,7 +11,7 @@ characters_data = [
 
     {
         "name": "Miho Nishizumi|Miporin",
-        "icon_url": "miho_icon.png",
+        "icon_path": "images/characters/Miho_Nishizumi_Icon.webp",
         "character_attributes": [
             "School:Ōarai Girls' Academy|Kuromorimine Girls' Academy", "Team:Anglerfish Team", "Role:Tank Commander",
             "First Appearance:Main Anime Episodes 1 to 4",
@@ -20,7 +20,7 @@ characters_data = [
     },
     {
         "name": "Hana Isuzu",
-        "icon_url": "hana_icon.png",
+        "icon_path": "images/characters/Hana_Isuzu_Icon.webp",
         "character_attributes": [
             "School:Ōarai Girls' Academy", "Team:Anglerfish Team", "Role:Gunner",
             "First Appearance:Main Anime Episodes 1 to 4",
@@ -29,7 +29,7 @@ characters_data = [
     },
     {
         "name": "Yukari Akiyama",
-        "icon_url": "yukari_icon.png",
+        "icon_path": "images/characters/Yukari_Akiyama_Icon.webp",
         "character_attributes": [
             "School:Ōarai Girls' Academy", "Team:Anglerfish Team", "Role:Loader",
             "First Appearance:Main Anime Episodes 1 to 4",
@@ -38,7 +38,7 @@ characters_data = [
     },
     {
         "name": "Mako Reizei",
-        "icon_url": "mako_icon.png",
+        "icon_path": "images/characters/Mako_Reizei_Icon.webp",
         "character_attributes": [
             "School:Ōarai Girls' Academy", "Team:Anglerfish Team", "Role:Driver",
             "First Appearance:Main Anime Episodes 1 to 4",
@@ -47,7 +47,7 @@ characters_data = [
     },
     {
         "name": "Saori Takebe",
-        "icon_url": "saori_icon.png",
+        "icon_path": "images/characters/Saori_Takebe_Icon.webp",
         "character_attributes": [
             "School:Ōarai Girls' Academy", "Team:Anglerfish Team", "Role:Radio Operator",
             "First Appearance:Main Anime Episodes 1 to 4",
