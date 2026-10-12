@@ -9,7 +9,7 @@
 {% endblock %}
 
 {% block content %}
-<h1>{{ text }}</h1>
+
 <div class="base-contents-container">
     <div id="game-container">
         <div id="game-head">
@@ -20,7 +20,82 @@
                 <img id="puzzle-background" src="{{ url_for('static', filename='images/ui/garupan-scope.png') }}">
 
                 <div id="puzzle">
-                    <h1>Hi!</h1>
+                    <div id="puzzle-grid">
+                        <!-- Row One -->
+
+                        <div class="puzzle-grid-box">
+                            <p>#1000</p>
+                        </div>
+                        <div class="puzzle-grid-box puzzle-grid-hint-box">
+                            <div class="hint-grid hint-box">
+                                <p>Hi!</p>
+                            </div>
+                        </div>
+                        <div class="puzzle-grid-box puzzle-grid-hint-box">
+                            <div class="hint-grid hint-box">
+                                <p>Hi!</p>
+                            </div>
+                        </div>
+                        <div class="puzzle-grid-box puzzle-grid-hint-box">
+                            <div class="hint-grid hint-box">
+                                <p>Hi!</p>
+                            </div>
+                        </div>
+
+                        <!-- Row Two -->
+
+                        <div class="puzzle-grid-box puzzle-grid-hint-box">
+                            <div class="hint-grid hint-box">
+                                <p>Hi!</p>
+                            </div>
+                        </div>
+
+                        <div class="puzzle-grid-box">
+                            <button aria-label="Empty cell" class="guess-box"></button>
+                        </div>
+                        <div class="puzzle-grid-box">
+                            <button aria-label="Empty cell" class="guess-box"></button>
+                        </div>
+                        <div class="puzzle-grid-box">
+                            <button aria-label="Empty cell" class="guess-box"></button>
+                        </div>
+
+                        <!-- Row Three -->
+
+                        <div class="puzzle-grid-box puzzle-grid-hint-box">
+                            <div class="hint-grid hint-box">
+                                <p>Hi!</p>
+                            </div>
+                        </div>
+
+                        <div class="puzzle-grid-box">
+                            <button aria-label="Empty cell" class="guess-box"></button>
+                        </div>
+                        <div class="puzzle-grid-box">
+                            <button aria-label="Empty cell" class="guess-box"></button>
+                        </div>
+                        <div class="puzzle-grid-box">
+                            <button aria-label="Empty cell" class="guess-box"></button>
+                        </div>
+
+                        <!-- Row Four -->
+
+                        <div class="puzzle-grid-box puzzle-grid-hint-box">
+                            <div class="hint-grid hint-box">
+                                <p>Hi!</p>
+                            </div>
+                        </div>
+
+                        <div class="puzzle-grid-box">
+                            <button aria-label="Empty cell" class="guess-box"></button>
+                        </div>
+                        <div class="puzzle-grid-box">
+                            <button aria-label="Empty cell" class="guess-box"></button>
+                        </div>
+                        <div class="puzzle-grid-box">
+                            <button aria-label="Empty cell" class="guess-box"></button>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="game-side-bar">
