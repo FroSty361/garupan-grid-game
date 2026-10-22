@@ -10,6 +10,20 @@
 
 {% block content %}
 
+<div id="guess-area">
+    <div id="guess-area-input">
+        <h3 id="guess-area-title">Guess A GuP Character!</h3>
+
+        <input type="text" id="character-guess-input" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="go" value>
+
+        <div id="character-guess-names">
+
+        </div>
+
+        <button id="guess-exit-button">Back</button>
+    </div>
+</div>
+
 <div class="base-contents-container">
     <div id="game-container">
         <div id="game-head">
@@ -51,13 +65,13 @@
                         </div>
 
                         <div class="puzzle-grid-box">
-                            <button aria-label="Empty cell" class="guess-box"></button>
+                            <button aria-label="Empty cell" class="guess-box" data-guess-button-coord="(0,0)"></button>
                         </div>
                         <div class="puzzle-grid-box">
-                            <button aria-label="Empty cell" class="guess-box"></button>
+                            <button aria-label="Empty cell" class="guess-box" data-guess-button-coord="(1,0)"></button>
                         </div>
                         <div class="puzzle-grid-box">
-                            <button aria-label="Empty cell" class="guess-box"></button>
+                            <button aria-label="Empty cell" class="guess-box" data-guess-button-coord="(2,0)"></button>
                         </div>
 
                         <!-- Row Three -->
@@ -69,13 +83,13 @@
                         </div>
 
                         <div class="puzzle-grid-box">
-                            <button aria-label="Empty cell" class="guess-box"></button>
+                            <button aria-label="Empty cell" class="guess-box" data-guess-button-coord="(0,1)"></button>
                         </div>
                         <div class="puzzle-grid-box">
-                            <button aria-label="Empty cell" class="guess-box"></button>
+                            <button aria-label="Empty cell" class="guess-box" data-guess-button-coord="(1,1)"></button>
                         </div>
                         <div class="puzzle-grid-box">
-                            <button aria-label="Empty cell" class="guess-box"></button>
+                            <button aria-label="Empty cell" class="guess-box" data-guess-button-coord="(2,1)"></button>
                         </div>
 
                         <!-- Row Four -->
@@ -87,13 +101,13 @@
                         </div>
 
                         <div class="puzzle-grid-box">
-                            <button aria-label="Empty cell" class="guess-box"></button>
+                            <button aria-label="Empty cell" class="guess-box" data-guess-button-coord="(0,2)"></button>
                         </div>
                         <div class="puzzle-grid-box">
-                            <button aria-label="Empty cell" class="guess-box"></button>
+                            <button aria-label="Empty cell" class="guess-box" data-guess-button-coord="(1,2)"></button>
                         </div>
                         <div class="puzzle-grid-box">
-                            <button aria-label="Empty cell" class="guess-box"></button>
+                            <button aria-label="Empty cell" class="guess-box" data-guess-button-coord="(2,2)"></button>
                         </div>
                     </div>
                 </div>
@@ -104,5 +118,11 @@
         </div>
     </div>
 </div>
+
+{% endblock %}
+
+{% block scripts %}
+
+<script src="{{ url_for('static', filename='js/guessing.js') }}"></script>
 
 {% endblock %}
