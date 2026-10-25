@@ -1,5 +1,4 @@
 from sqlalchemy import Null
-
 from data_seeds.characters.characters_seed_data import characters_data
 
 character_names = []
@@ -37,8 +36,6 @@ def character_search(character_name_input: str):
         character_name_nicks =  character_name.split("|") # names delimiter between is |
 
         if match_character_name_with_nicks(character_name_input, character_name_nicks, False):
-            print(character_name_nicks[0])
-
             matched_character_names.append(character_name_nicks[0])
 
     return matched_character_names

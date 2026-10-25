@@ -37,6 +37,12 @@ character_attributes_data = [
     ("Role", "Radio Operator"),
     ("Role", "None"),
 
+    # School Team Senshado Roles
+
+    ("School Team Senshado Role", "Commander"),
+    ("School Team Senshado Role", "Vice-Commander"),
+    ("School Team Senshado Role", "Team Member"),
+
     # Tanks
 
     ("Tank", "Pz.IV"),
