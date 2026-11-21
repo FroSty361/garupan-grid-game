@@ -7,6 +7,8 @@
 # "{category_name}:{value|value01|value02|etc.}"
 
 characters_data = [
+    # Ōarai Girls' Academy
+
     # Ōarai Girls' Academy - Anglerfish Team
 
     {
@@ -15,7 +17,7 @@ characters_data = [
         "character_attributes": [
             "School:Ōarai Girls' Academy|Kuromorimine Girls' Academy", "Team:Anglerfish Team", "Role:Tank Commander", "School Team Senshado Role:Commander",
             "First Appearance:Main Anime Episodes 1 to 4",
-            "Age Range:15 to 18", "Height:> 145 cm and < 160 cm", "Hair Color:Brown", "Hair Length:Shorter",
+            "Age Range:15 to 18", "Birth Season:Autumn", "Height:> 145 cm and < 160 cm", "Hair Color:Brown", "Hair Length:Shorter",
         ]
     },
     {
@@ -24,7 +26,7 @@ characters_data = [
         "character_attributes": [
             "School:Ōarai Girls' Academy", "Team:Anglerfish Team", "Role:Gunner", "School Team Senshado Role:Team Member",
             "First Appearance:Main Anime Episodes 1 to 4",
-            "Age Range:15 to 18", "Height:>= 160 cm", "Hair Color:Black", "Hair Length:Longer",
+            "Age Range:15 to 18", "Birth Season:Autumn", "Height:>= 160 cm", "Hair Color:Black", "Hair Length:Longer",
         ]
     },
     {
@@ -33,7 +35,7 @@ characters_data = [
         "character_attributes": [
             "School:Ōarai Girls' Academy", "Team:Anglerfish Team", "Role:Loader", "School Team Senshado Role:Team Member",
             "First Appearance:Main Anime Episodes 1 to 4",
-            "Age Range:15 to 18", "Height:> 145 cm and < 160 cm", "Hair Color:Brown", "Hair Length:Shorter",
+            "Age Range:15 to 18", "Birth Season:Spring", "Height:> 145 cm and < 160 cm", "Hair Color:Brown", "Hair Length:Shorter",
         ]
     },
     {
@@ -42,7 +44,7 @@ characters_data = [
         "character_attributes": [
             "School:Ōarai Girls' Academy", "Team:Anglerfish Team", "Role:Driver", "School Team Senshado Role:Team Member",
             "First Appearance:Main Anime Episodes 1 to 4",
-            "Age Range:15 to 18", "Height:>= 160 cm", "Hair Color:Black", "Hair Length:Longer",
+            "Age Range:15 to 18", "Birth Season:Summer", "Height:>= 160 cm", "Hair Color:Black", "Hair Length:Longer",
         ]
     },
     {
@@ -51,7 +53,7 @@ characters_data = [
         "character_attributes": [
             "School:Ōarai Girls' Academy", "Team:Anglerfish Team", "Role:Radio Operator", "School Team Senshado Role:Team Member",
             "First Appearance:Main Anime Episodes 1 to 4",
-            "Age Range:15 to 18", "Height:>= 160 cm", "Hair Color:Red", "Hair Length:Longer",
+            "Age Range:15 to 18", "Birth Season:Summer", "Height:>= 160 cm", "Hair Color:Red", "Hair Length:Longer",
         ]
     },
 
@@ -63,7 +65,7 @@ characters_data = [
         "character_attributes": [
             "School:Ōarai Girls' Academy", "Team:Turtle Team", "Role:Tank Commander|Radio Operator|Gunner", "School Team Senshado Role:Team Member",
             "First Appearance:Main Anime Episodes 1 to 4",
-            "Age Range:15 to 18", "Height:<= 145 cm", "Hair Color:Brown", "Hair Length:Longer",
+            "Age Range:15 to 18", "Birth Season:Winter", "Height:<= 145 cm", "Hair Color:Brown", "Hair Length:Longer",
         ]
     },
     {
@@ -72,7 +74,7 @@ characters_data = [
         "character_attributes": [
             "School:Ōarai Girls' Academy", "Team:Turtle Team", "Role:Loader", "School Team Senshado Role:Vice-Commander",
             "First Appearance:Main Anime Episodes 1 to 4",
-            "Age Range:15 to 18", ">= 160 cm", "Hair Color:Black", "Hair Length:Shorter",
+            "Age Range:15 to 18", "Birth Season:Spring", ">= 160 cm", "Hair Color:Black", "Hair Length:Shorter",
         ]
     },
     {
@@ -81,7 +83,7 @@ characters_data = [
         "character_attributes": [
             "School:Ōarai Girls' Academy", "Team:Turtle Team", "Role:Driver", "School Team Senshado Role:Team Member",
             "First Appearance:Main Anime Episodes 1 to 4",
-            "Age Range:15 to 18", "> 145 cm and < 160 cm", "Hair Color:Brown", "Hair Length:Longer",
+            "Age Range:15 to 18", "Birth Season:Autumn", "> 145 cm and < 160 cm", "Hair Color:Brown", "Hair Length:Longer",
         ]
     },
 
@@ -110,4 +112,56 @@ characters_data = [
 
 
     # Ōarai Girls' Academy - Shark Team
+
+
+    # St. Gloriana Girls College
+
+
+
+    # Saunders University High School
+
+
+
+    # Anzio High School
+
+
+
+    # Pravda Girls High School
+
+    {
+        "name": "Nonna|Blizzard",
+        "icon_path": "images/characters/Nonna_Icon.webp",
+        "character_attributes": [
+            "School:Pravda Girls High School", "Team:None", "Role:Tank Commander|Gunner", "School Team Senshado Role:Vice-Commander",
+            "First Appearance:Main Anime Episodes 5 to 6",
+            "Age Range:15 to 18", "Birth Season:Autumn", "Height:>= 160 cm", "Hair Color:Brown", "Hair Length:Longer",
+        ]
+    },
+    {
+        "name": "Katyusha|Snowdrift",
+        "icon_path": "images/characters/Katyusha_Icon.webp",
+        "character_attributes": [
+            "School:Pravda Girls High School", "Team:None", "Role:Tank Commander", "School Team Senshado Role:Commander",
+            "First Appearance:Main Anime Episodes 7 to 12",
+            "Age Range:15 to 18", "Birth Season:Winter", "Height:<= 145 cm", "Hair Color:Blonde", "Hair Length:Shorter",
+        ]
+    },
+    {
+        "name": "Nina",
+        "icon_path": "images/characters/Nina_Icon.webp",
+        "character_attributes": [
+            "School:Pravda Girls High School", "Team:None", "Role:Tank Commander|Loader|Gunner", "School Team Senshado Role:Team Member",
+            "First Appearance:Main Anime Episodes 7 to 12",
+            "Age Range:15 to 18", "Birth Season:Summer", "Height:<= 145 cm", "Hair Color:Black", "Hair Length:Shorter",
+        ]
+    },
+    {
+        "name": "Klara",
+        "icon_path": "images/characters/Klara_Icon.webp",
+        "character_attributes": [
+            "School:Pravda Girls High School", "Team:None", "Role:Tank Commander|Gunner", "School Team Senshado Role:Team Member",
+            "First Appearance:Der Film",
+            "Age Range:15 to 18", "Birth Season:Spring", "Height:>= 160 cm", "Hair Color:Blonde", "Hair Length:Longer",
+        ]
+    },
 ]

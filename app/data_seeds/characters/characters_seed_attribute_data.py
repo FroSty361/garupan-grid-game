@@ -27,6 +27,7 @@ character_attributes_data = [
     ("Team", "Anteater Team"),
     ("Team", "Leopon Team"),
     ("Team", "Shark Team"),
+    ("Team", "None"),
 
     # Roles
 
@@ -51,7 +52,7 @@ character_attributes_data = [
     # First Appearance
 
     ("First Appearance", "Main Anime Episodes 1 to 4"),
-    ("First Appearance", "Main Anime Episodes 5 and 6"),
+    ("First Appearance", "Main Anime Episodes 5 to 6"),
     ("First Appearance", "Main Anime Episodes 7 to 12"),
     ("First Appearance", "OVA"),
     ("First Appearance", "Der Film"),
@@ -65,6 +66,13 @@ character_attributes_data = [
     ("Age Range", "Under 15"),
     ("Age Range", "15 to 18"),
     ("Age Range", "Above 18"),
+
+    # Birth Season
+
+    ("Birth Season", "Spring"),
+    ("Birth Season", "Summer"),
+    ("Birth Season", "Autumn"),
+    ("Birth Season", "Winter"),
 
     # Height
 
